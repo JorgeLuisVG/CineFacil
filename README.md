@@ -5,7 +5,7 @@ El sistema esta compuesto por funciones y funciones anidadas, la funcion "HacerR
 
 Funciones:
 HacerReserva()
-    def Funciones()
+    Funciones()
 MostrarReservas()
 
 En la nueva rama se probaron los nuevos cambios y se añadieron los cambios a la rama Main desde el menú de pull requests de git hub 
