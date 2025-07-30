@@ -93,11 +93,16 @@ def MostrarReservas():
 while True:
     print("1 = Hacer reservas")
     print("2 = Ver reservas")
+    print("3 = salir")
     opcion = input()
 
     if opcion == "1":
         HacerReserva()
     elif opcion == "2":
         MostrarReservas()
+    elif opcion == "3":
+        break
+    else:
+        print("Opcion invalida")
 
 
