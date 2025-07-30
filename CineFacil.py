@@ -54,7 +54,7 @@ def HacerReserva():
     PeliHora = Funciones()
     Cantidadboletos = int(input("Ingrese la cantidad de boletos que desea comprar"))
     Cuenta = Cantidadboletos * 45
-    
+
     Reserva = {
         "Nombre": Nombre,
         "Funcion y hora": PeliHora,
@@ -62,7 +62,10 @@ def HacerReserva():
         "Cuenta": Cuenta
     }
 
-
+    for n, p, b, c in Reserva:
+        print(f"Clienre: {n}. Funcion: {p}. Boletos comprados: {b}. Total: {c}")
+    
+    ListaReservas.append(Reserva)
 
 while True:
     print("1 = Hacer reservas")
@@ -70,6 +73,6 @@ while True:
     opcion = input()
 
     if opcion == "1":
-        print()
+        HacerReserva()
     elif opcion == "2":
         print()
