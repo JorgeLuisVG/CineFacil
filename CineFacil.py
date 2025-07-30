@@ -1,3 +1,5 @@
+ListaReservas = []
+
 def Funciones():
     print("Funciones")
     print("1 = The Dark Knight")
@@ -17,3 +19,12 @@ def Funciones():
     print("6 = 10:00 pm")
     Horario = input()
 
+while True:
+    print("1 = Hacer reservas")
+    print("2 = Ver reservas")
+    opcion = input()
+
+    if opcion == "1":
+        print()
+    elif opcion == "2":
+        print()
